@@ -22,6 +22,10 @@ export default function Home () {
     {
       setText("")
     }
+    const Reverse=()=>{
+      let newtext=text.split(" ").reverse().join(" ");
+      setText(newtext)
+    }
 
   return (
     <div className='container mt-5' >
@@ -33,6 +37,9 @@ export default function Home () {
         <button className="btn btn-primary mt-3 mx-2"  onClick={ToUpper}>UPPERCASE</button>
         <button className="btn btn-primary mt-3 mx-2" onClick={ToLower}>lowercase</button>
         <button className="btn btn-primary mt-3 mx-2" onClick={ToClear}>Clear</button>
+        <button className="btn btn-primary mt-3 mx-2" onClick={Reverse}>
+       Text Reverse 
+      </button>
         <div className="container mt-3">
           <h2>SUMMARY</h2>
           <h3>Total number of characters : {text.length}</h3>
