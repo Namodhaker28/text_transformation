@@ -22,11 +22,11 @@ export default function (props) {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/about">
                 About
               </a>
-            </li>
+            </li> */}
             <li class="nav-item dropdown">
               <a
                 class="nav-link active dropdown-toggle"
@@ -41,11 +41,11 @@ export default function (props) {
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a class="dropdown-item" href="#">
-                    Email
+                    Namodhaker76@gmail.com
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="https://www.linkedin.com/in/namo-dhaker-4a3389200/">
                     LinkedIN
                   </a>
                 </li>

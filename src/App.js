@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import React from "react";
 import { useState } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+// import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Alert from "./Components/Alert";
 function App() {
   let [alert, setAlert] = useState(null);
@@ -36,16 +36,16 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Home />
-      <About /> */}
+      <Home />
+      {/* <About /> */}
       <Alert alert={alert} />
-
-      <BrowserRouter>
+      
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home ShowAlert={ShowAlert} />} />
           <Route path="About" element={<About />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   );
 }
